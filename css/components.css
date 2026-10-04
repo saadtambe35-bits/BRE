@@ -1,0 +1,612 @@
+/* ==========================================================================
+   PROGRAMMATIC SUCCESSION OS (PS-OS)
+   Reusable Component Library Stylesheet
+   ========================================================================== */
+
+/* ---------- BUTTONS ---------- */
+.btn {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  white-space: nowrap;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--oxblood);
+  color: var(--paper);
+  border-color: var(--oxblood);
+}
+
+.btn-primary:hover {
+  background: var(--oxblood-2);
+  border-color: var(--oxblood-2);
+  box-shadow: 0 4px 16px rgba(122, 35, 49, 0.4);
+}
+
+.btn-teal {
+  background: var(--teal);
+  color: var(--paper);
+  border-color: var(--teal);
+}
+
+.btn-teal:hover {
+  background: var(--teal-2);
+  border-color: var(--teal-2);
+  box-shadow: 0 4px 18px var(--teal-glow);
+}
+
+.btn-brass {
+  background: var(--brass);
+  color: var(--ink);
+  border-color: var(--brass);
+  font-weight: 700;
+}
+
+.btn-brass:hover {
+  background: var(--brass-light);
+  border-color: var(--brass-light);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--paper);
+  border-color: var(--line-light);
+}
+
+.btn-ghost:hover {
+  border-color: var(--teal-2);
+  color: var(--teal-2);
+  background: rgba(35, 172, 162, 0.06);
+}
+
+.btn-dark {
+  background: var(--ink-2);
+  color: var(--paper);
+  border-color: var(--line-light);
+}
+
+.btn-dark:hover {
+  background: var(--ink-3);
+  border-color: var(--line-strong);
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+}
+
+.btn-lg {
+  padding: 14px 28px;
+  font-size: 1.05rem;
+}
+
+/* ---------- BADGES & CHIPS ---------- */
+.badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid transparent;
+}
+
+.badge-clean {
+  background: rgba(16, 185, 129, 0.12);
+  color: #10B981;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.badge-warning {
+  background: rgba(245, 158, 11, 0.12);
+  color: #F59E0B;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.badge-critical {
+  background: rgba(239, 68, 68, 0.12);
+  color: #EF4444;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.badge-teal {
+  background: rgba(35, 172, 162, 0.14);
+  color: var(--teal-2);
+  border-color: rgba(35, 172, 162, 0.3);
+}
+
+.badge-brass {
+  background: rgba(199, 154, 69, 0.14);
+  color: var(--brass-light);
+  border-color: rgba(199, 154, 69, 0.3);
+}
+
+.badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.badge-live .badge-dot {
+  animation: pulse 1.8s infinite ease-in-out;
+}
+
+/* ---------- CARDS ---------- */
+.card {
+  border-radius: 6px;
+  padding: 28px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  position: relative;
+}
+
+.card-ink {
+  background: var(--ink-2);
+  border: 1px solid var(--line-light);
+}
+
+.card-ink:hover {
+  border-color: var(--line-strong);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.card-paper {
+  background: var(--paper-card);
+  border: 1px solid var(--line-dark);
+  color: var(--ink);
+}
+
+.card-paper:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(10, 20, 26, 0.08);
+}
+
+/* Institutional Terminal Block */
+.terminal-block {
+  background: #060D11;
+  border: 1px solid var(--line-light);
+  border-radius: 6px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  overflow: hidden;
+}
+
+.terminal-header {
+  background: var(--ink-3);
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--line-light);
+}
+
+.terminal-title {
+  color: var(--teal-2);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.terminal-body {
+  padding: 20px;
+  color: var(--paper);
+  line-height: 1.6;
+}
+
+/* ---------- FORM CONTROLS & RANGE SLIDERS ---------- */
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-group label .val-display {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  color: var(--teal-2);
+  font-size: 0.95rem;
+}
+
+select.input-control, input.input-control {
+  width: 100%;
+  background: var(--ink-3);
+  color: var(--paper);
+  border: 1px solid var(--line-light);
+  border-radius: 4px;
+  padding: 12px 14px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.92rem;
+  transition: border-color 0.2s ease;
+  outline: none;
+}
+
+select.input-control:focus, input.input-control:focus {
+  border-color: var(--teal-2);
+}
+
+/* Custom Range Slider */
+input[type="range"].range-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: var(--ink-4);
+  border-radius: 3px;
+  outline: none;
+  margin: 10px 0;
+}
+
+input[type="range"].range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--teal-2);
+  cursor: pointer;
+  border: 2px solid var(--ink);
+  box-shadow: 0 0 10px var(--teal-glow);
+  transition: transform 0.15s ease;
+}
+
+input[type="range"].range-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+input[type="range"].range-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--teal-2);
+  cursor: pointer;
+  border: 2px solid var(--ink);
+  box-shadow: 0 0 10px var(--teal-glow);
+}
+
+/* ---------- MODALS & POPUPS ---------- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(6, 13, 17, 0.88);
+  backdrop-filter: blur(8px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-window {
+  background: var(--ink-2);
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 720px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: var(--shadow-lg);
+  animation: modalIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modalIn {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-header {
+  padding: 22px 28px;
+  border-bottom: 1px solid var(--line-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-close-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.modal-close-btn:hover {
+  color: var(--paper);
+}
+
+.modal-content {
+  padding: 28px;
+}
+
+/* ---------- TOAST SYSTEM ---------- */
+#toast-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  pointer-events: none;
+}
+
+.toast {
+  background: var(--ink-2);
+  border: 1px solid var(--teal-2);
+  color: var(--paper);
+  padding: 14px 18px;
+  border-radius: 6px;
+  box-shadow: var(--shadow-lg);
+  font-size: 0.88rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  pointer-events: auto;
+  animation: toastIn 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes toastIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.toast.leaving {
+  animation: toastOut 0.3s ease forwards;
+}
+
+@keyframes toastOut {
+  to { opacity: 0; transform: translateX(20px); }
+}
+
+.toast-icon {
+  color: var(--teal-2);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.toast-body b {
+  display: block;
+  font-family: 'Fraunces', serif;
+  font-size: 0.95rem;
+  margin-bottom: 2px;
+}
+
+
+/* ---------- FACULTY AUDIT & WHY-THIS-EXISTS STYLING ---------- */
+.why-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(199, 154, 69, 0.15);
+  color: var(--brass-light);
+  border: 1px solid rgba(199, 154, 69, 0.35);
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.why-tag:hover {
+  background: rgba(199, 154, 69, 0.3);
+  transform: translateY(-1px);
+}
+
+.why-tag::before {
+  content: "❓ Reason: ";
+  font-size: 0.65rem;
+  opacity: 0.85;
+}
+
+/* Statutory Citation Badge */
+.statutory-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(35, 172, 162, 0.14);
+  color: var(--teal-2);
+  border: 1px solid rgba(35, 172, 162, 0.35);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.statutory-tag:hover {
+  background: rgba(35, 172, 162, 0.28);
+}
+
+/* Formal Stamped Document Container (Inside Modals) */
+.formal-doc {
+  background: #0B1317;
+  border: 2px solid var(--line-strong);
+  border-radius: 6px;
+  padding: 32px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: var(--paper);
+  position: relative;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.doc-stamp {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  border: 2px dashed var(--teal-2);
+  color: var(--teal-2);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transform: rotate(-3deg);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.doc-stamp.stamp-gold {
+  border-color: var(--brass);
+  color: var(--brass-light);
+  transform: rotate(4deg);
+}
+
+/* Interactive Data Room Tabs */
+.dataroom-tab-strip {
+  display: flex;
+  background: var(--ink-3);
+  border-bottom: 1px solid var(--line-light);
+  overflow-x: auto;
+  gap: 4px;
+  padding: 6px 12px 0;
+}
+
+.dataroom-tab-btn {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 10px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.dataroom-tab-btn:hover {
+  color: var(--paper);
+}
+
+.dataroom-tab-btn.active {
+  color: var(--teal-2);
+  border-bottom-color: var(--teal-2);
+  background: rgba(35, 172, 162, 0.08);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.dataroom-tab-pane {
+  display: none;
+  padding: 24px;
+  animation: fadeIn 0.25s ease;
+}
+
+.dataroom-tab-pane.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Faculty Evaluation Tour Floating Drawer */
+.faculty-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2500;
+  background: rgba(6, 13, 17, 0.85);
+  backdrop-filter: blur(8px);
+  display: none;
+  justify-content: flex-end;
+}
+
+.faculty-drawer-overlay.active {
+  display: flex;
+}
+
+.faculty-drawer {
+  width: 100%;
+  max-width: 580px;
+  height: 100%;
+  background: var(--ink-2);
+  border-left: 2px solid var(--brass);
+  box-shadow: -10px 0 35px rgba(0, 0, 0, 0.6);
+  padding: 32px;
+  overflow-y: auto;
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.faculty-question-card {
+  background: var(--ink-3);
+  border: 1px solid var(--line-light);
+  border-radius: 6px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  transition: all 0.2s ease;
+}
+
+.faculty-question-card:hover {
+  border-color: var(--brass);
+}
+
+.faculty-question-card h5 {
+  color: var(--brass-light);
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faculty-question-card p {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: 10px;
+}

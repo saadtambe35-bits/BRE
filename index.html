@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programmatic Succession OS (PS-OS) — Institutional MSME M&A Infrastructure</title>
+  <meta name="description" content="Programmatic Succession OS (PS-OS) is an institutional programmatic M&A and business revival infrastructure designed to transition lower-middle-market MSMEs via Section 2(42C) slump sale and AI underwriting.">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/dashboards.css">
+</head>
+<body>
+
+  <!-- Dynamic Scroll Progress Rail -->
+  <div class="progress-rail" id="progressRail"></div>
+
+  <!-- Master Navigation -->
+  <nav class="master-nav">
+    <div class="wrap nav-content">
+      <a href="#hero" class="brand-badge">
+        <div class="brand-mark">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+          </svg>
+        </div>
+        <div class="brand-title">
+          <span>PROGRAMMATIC SUCCESSION OS</span>
+          <span>PS-OS v4.0.0-ENTERPRISE</span>
+        </div>
+      </a>
+
+      <div class="nav-links">
+        <a href="#hero" data-nav>Executive</a>
+        <a href="#scanner" data-nav>AI Engine</a>
+        <a href="#case-studies" data-nav>Case Studies</a>
+        <a href="#marketplace" data-nav>Deal Room</a>
+        <a href="#dashboards" data-nav>Role Portals</a>
+        <a href="#premium-tools" data-nav>AI Tools</a>
+        <a href="#deal-room" data-nav>Escrow</a>
+        <a href="#faq" data-nav>Statutory</a>
+      </div>
+
+      <div class="nav-ctas">
+        <button class="btn btn-sm btn-brass" id="facultyTourNavBtn" type="button" title="Interactive Faculty Viva & Academic Defense">
+          🎓 Faculty Audit Mode
+        </button>
+        <button class="btn btn-sm btn-ghost" id="demoBypassNavBtn" type="button" title="Faculty Presentation Bypass">
+          ⚡ Instant Demo Unlock
+        </button>
+        <a href="#scanner" class="btn btn-sm btn-primary">Run Diagnostic</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================================
+       SECTION 1: HERO & EXECUTIVE MASTER TOPOLOGY
+       ========================================================================= -->
+  <section class="hero-section" id="hero">
+    <div class="wrap">
+      <div class="grid-2" style="align-items: center;">
+        <div>
+          <div class="eyebrow">Institutional M&A Infrastructure · Lower-Middle Market</div>
+          <h1>Don't liquidate viable MSMEs.<br><em style="color: var(--teal-2); font-style: italic;">Programmatically</em> succeed them.</h1>
+          <p style="margin: 18px 0 28px; font-size: 1.08rem; max-width: 54ch;">
+            Over 70% of profitable manufacturing units face shutdown due to promoter retirement or delayed working capital. 
+            PS-OS combines edge Tally extraction, Section 50B tax engineering, and a 60/20/20 milestone capital stack to transition businesses with zero litigation transfer.
+          </p>
+
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <a href="#case-studies" class="btn btn-lg btn-primary">Explore Hero Case Study</a>
+            <a href="#scanner" class="btn btn-lg btn-ghost">Launch AI Underwriter</a>
+          </div>
+
+          <!-- Institutional Trust Points -->
+          <div style="display: flex; gap: 24px; margin-top: 40px; flex-wrap: wrap; border-top: 1px solid var(--line-light); padding-top: 24px;">
+            <div>
+              <span class="mono" style="font-size: 1.4rem; font-weight: 700; color: var(--paper); display: block;">Sec 2(42C)</span>
+              <span style="font-size: 0.76rem; color: var(--text-muted); text-transform: uppercase;">Slump Sale Asset Isolation</span>
+            </div>
+            <div>
+              <span class="mono" style="font-size: 1.4rem; font-weight: 700; color: var(--teal-2); display: block;">&lt; 3.0%</span>
+              <span style="font-size: 0.76rem; color: var(--text-muted); text-transform: uppercase;">Bank vs. GST Variance Gate</span>
+            </div>
+            <div>
+              <span class="mono" style="font-size: 1.4rem; font-weight: 700; color: var(--brass-light); display: block;">60 / 20 / 20</span>
+              <span style="font-size: 0.76rem; color: var(--text-muted); text-transform: uppercase;">Programmatic Capital Stack</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terminal Vitals Preview -->
+        <div class="terminal-block">
+          <div class="terminal-header">
+            <span class="terminal-title">LIVE PROTOCOL STREAM · CHAKAN CLUSTER PILOT</span>
+            <span class="badge badge-clean badge-live"><span class="badge-dot"></span> EDGE-DAEMON ONLINE</span>
+          </div>
+          <div class="terminal-body">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 0.78rem;">
+              <span style="color: var(--text-muted);">TARGET ASSET: <b>#MH-AUTO-1092</b></span>
+              <span style="color: var(--teal-2);">ODBC: PORT 9000</span>
+            </div>
+            <p style="color: #A0C0D0; margin-bottom: 16px; font-size: 0.82rem;">
+              &gt; TallyPrime 36M Ledger Ingestion: <span style="color:#10B981;">2,842 Vouchers Indexed</span><br>
+              &gt; 3-Way Variance (Bank vs GSTN vs Tally): <span style="color:#10B981;">0.72% [AUDIT-CLEAN]</span><br>
+              &gt; Normalizing Promoter Discretionary Add-backs: <span style="color:#C79A45;">₹37,00,000</span><br>
+              &gt; Underwritten SDE: <span style="color:#24ABA1; font-weight:700;">₹2,10,00,000 (16.86% Margin)</span><br>
+              &gt; Sec 50B Capital Gains Tax (Rule 11UAE): <span style="color:#DFB667;">₹41,34,000</span><br>
+              &gt; Net Promoter Cash-in-Hand: <span style="color:#10B981; font-weight:700;">₹5,88,66,000</span>
+            </p>
+            <div style="background: var(--ink-3); padding: 12px; border-radius: 4px; border: 1px solid var(--line-light);">
+              <div style="display: flex; justify-content: space-between; font-size: 0.74rem; color: var(--text-muted); margin-bottom: 6px;">
+                <span>SENIOR DEBT REPAYMENT CAPACITY</span>
+                <span class="mono" style="color: var(--teal-2);">DSCR: 1.62x (Lender Approved)</span>
+              </div>
+              <div style="height: 6px; background: var(--ink-4); border-radius: 3px; overflow: hidden;">
+                <div style="width: 78%; height: 100%; background: var(--teal-2);"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 2: AI UNDERWRITING & SDE DIAGNOSTIC ENGINE (Block 2 container)
+       ========================================================================= -->
+  <section class="section-alt" id="scanner">
+    <div class="wrap" id="scanner-container">
+      <!-- Injected dynamically by js/scanner.js -->
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 3: CASE STUDIES & HERO SCENARIO WALKTHROUGH (Block 3 container)
+       ========================================================================= -->
+  <section id="case-studies">
+    <div class="wrap" id="case-studies-container">
+      <!-- Injected dynamically by js/case-studies.js -->
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 4: GATED DEAL ROOM & MARKETPLACE (Block 4 container)
+       ========================================================================= -->
+  <section class="section-alt" id="marketplace">
+    <div class="wrap" id="marketplace-container">
+      <!-- Injected dynamically by js/marketplace.js -->
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 5: MULTI-ROLE PORTALS & DASHBOARDS (Block 4 container)
+       ========================================================================= -->
+  <section id="dashboards">
+    <div class="wrap" id="dashboards-container">
+      <!-- Injected dynamically by js/dashboards.js -->
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 6: PREMIUM INSTITUTIONAL AI TOOLS (Block 5 container)
+       ========================================================================= -->
+  <section class="section-alt" id="premium-tools">
+    <div class="wrap" id="premium-tools-container">
+      <!-- Injected dynamically by js/premium-tools.js -->
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 7: ESCROW GOVERNANCE & SETTLEMENT ENGINE (Block 6 container)
+       ========================================================================= -->
+  <section id="deal-room">
+    <div class="wrap" id="deal-room-container">
+      <!-- Injected dynamically by js/deal-room.js -->
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 8: STATUTORY FRAMEWORK & FAQ ACCORDION
+       ========================================================================= -->
+  <section class="section-alt" id="faq">
+    <div class="wrap">
+      <div class="section-header">
+        <div class="eyebrow">Regulatory & Statutory Safeguards</div>
+        <h2>Frequently asked statutory questions</h2>
+        <p>How the Programmatic Succession OS protects buyers, sellers, and senior lenders under Indian commercial law.</p>
+      </div>
+
+      <div class="card card-ink" style="padding: 10px 24px;">
+        <div class="form-group" style="margin: 18px 0; border-bottom: 1px solid var(--line-light); padding-bottom: 16px;">
+          <h4 style="color: var(--paper); font-size: 1.1rem; margin-bottom: 6px;">
+            1. Why execute via Section 2(42C) Slump Sale instead of purchasing OldCo shares?
+          </h4>
+          <p style="font-size: 0.92rem; color: var(--text-muted);">
+            In a share acquisition, the buyer inherits all historical contingent liabilities, unrecorded promoter borrowings, and pending income-tax notices. Under Section 2(42C) of the Income Tax Act, a slump sale transfers the operating undertaking (assets, customer orders, equipment) to a clean NewCo for a lump-sum price, completely isolating all OldCo legal and tax liabilities within the seller's corporate shell.
+          </p>
+        </div>
+
+        <div class="form-group" style="margin: 18px 0; border-bottom: 1px solid var(--line-light); padding-bottom: 16px;">
+          <h4 style="color: var(--paper); font-size: 1.1rem; margin-bottom: 6px;">
+            2. Is the slump sale transaction subject to 18% GST?
+          </h4>
+          <p style="font-size: 0.92rem; color: var(--text-muted);">
+            No. Under <b>Notification No. 12/2017-Central Tax (Rate)</b>, the transfer of a business undertaking as a <i>going concern</i> is specifically exempt from GST. Our Business Transfer Agreement (BTA) covenants ensure the entire operational apparatus transfers intact without itemized individual asset invoicing.
+          </p>
+        </div>
+
+        <div class="form-group" style="margin: 18px 0; border-bottom: 1px solid var(--line-light); padding-bottom: 16px;">
+          <h4 style="color: var(--paper); font-size: 1.1rem; margin-bottom: 6px;">
+            3. How do we operate during the 6 to 9 months required for Factory License and Pollution Consents to novate?
+          </h4>
+          <p style="font-size: 0.92rem; color: var(--text-muted);">
+            We deploy a dual-stage <b>Interim Operations Sub-Contracting Agreement</b>. NewCo acts as principal (purchasing raw material, owning customer orders, and receiving payments), while OldCo operates the manufacturing floor on a zero-margin cost-plus job-work basis under its existing factory licenses until government novation clearances finalize.
+          </p>
+        </div>
+
+        <div class="form-group" style="margin: 18px 0; padding-bottom: 8px;">
+          <h4 style="color: var(--paper); font-size: 1.1rem; margin-bottom: 6px;">
+            4. What protects the senior bank/NBFC lender from the 20% Seller Note?
+          </h4>
+          <p style="font-size: 0.92rem; color: var(--text-muted);">
+            A standardized <b>Intercreditor Subordination Deed</b> gives the senior institutional lender a first ranking exclusive charge over all NewCo cash flows. The promoter's 20% seller note is fully subordinated, and automatic standstill covenants freeze seller note repayments if NewCo's rolling 3-month DSCR falls below 1.15x.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer style="background: #060D11; border-top: 1px solid var(--line-light); padding: 48px 0;">
+    <div class="wrap" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+      <div>
+        <div style="font-family: 'Fraunces', serif; font-size: 1.2rem; font-weight: 700; color: var(--paper);">
+          PROGRAMMATIC SUCCESSION OS
+        </div>
+        <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;">
+          Statutory Framework: Indian Companies Act 2013 | Income Tax Act Sec 50B | GST Notification 12/2017
+        </p>
+      </div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.76rem; color: var(--teal-2);">
+        PILOT VERTICAL: CHAKAN AUTOMOTIVE CLUSTER (#MH-AUTO-1092)
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Global Modal Host -->
+  <div class="modal-overlay" id="globalModalOverlay">
+    <div class="modal-window" id="globalModalWindow">
+      <div class="modal-header">
+        <h4 id="globalModalTitle" style="font-size: 1.25rem;">Modal Window</h4>
+        <button class="modal-close-btn" id="globalModalCloseBtn">&times;</button>
+      </div>
+      <div class="modal-content" id="globalModalBody">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Faculty Evaluation & Viva Defense Floating Drawer Overlay -->
+  <div class="faculty-drawer-overlay" id="facultyDrawerOverlay">
+    <div class="faculty-drawer" id="facultyDrawer">
+      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line-light); padding-bottom:16px; margin-bottom:20px;">
+        <div>
+          <span class="mono" style="font-size:0.75rem; color:var(--brass-light); letter-spacing:0.1em; text-transform:uppercase;">
+            FACULTY AUDIT & VIVA DEFENSE
+          </span>
+          <h3 style="font-size:1.35rem; color:var(--paper); margin-top:2px;">
+            Academic & Statutory Examiner Tour
+          </h3>
+        </div>
+        <button class="modal-close-btn" id="closeFacultyDrawerBtn">&times;</button>
+      </div>
+
+      <p style="font-size:0.86rem; color:var(--text-muted); line-height:1.6; margin-bottom:20px;">
+        Designed specifically for faculty evaluation. Click any question below to see the precise academic justification and jump directly to the live feature on the page.
+      </p>
+
+      <div id="facultyQuestionsList">
+        <!-- Injected dynamically by js/app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Scripts -->
+  <script src="js/state.js"></script>
+  <script src="js/scanner.js"></script>
+  <script src="js/case-studies.js"></script>
+  <script src="js/marketplace.js"></script>
+  <script src="js/dashboards.js"></script>
+  <script src="js/premium-tools.js"></script>
+  <script src="js/deal-room.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
