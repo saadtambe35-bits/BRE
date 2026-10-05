@@ -1,0 +1,13 @@
+{
+  "name": "business-revival-ecosystem",
+  "version": "4.0.0",
+  "description": "Business Revival Ecosystem (BRE) - Institutional MSME Turnaround & Succession Platform",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s . -l $PORT",
+    "build": "echo 'Frontend ready'"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
