@@ -1,4 +1,4 @@
-# Programmatic Succession OS (PS-OS) / Business Revival Ecosystem (BRE)
+# Business Revival Ecosystem (BRE) / Business Revival Ecosystem (BRE)
 > **Institutional Enterprise Platform for MSME Business Revival, Succession, and Programmatic Acquisitions**  
 > *Statutory Compliance: Indian Companies Act 2013 | Income Tax Act Sec 2(42C) & Sec 50B (Rule 11UAE) | GST Notification 12/2017 (Going Concern) | RBI Account Aggregator Framework | ICAI Limited-Scope Agreed-Upon Procedures (AUP)*
 
@@ -6,9 +6,9 @@
 
 ## 🏛️ Executive Summary
 
-**Programmatic Succession OS (PS-OS)** is an institutional programmatic M&A and turnaround infrastructure designed to rescue and transition profitable, cash-generative lower-middle-market Indian MSMEs (annual turnover ₹3.0 Cr to ₹25.0 Cr) from retiring or distressed promoters (ages 50–65) to vetted Operator-Investors (Searchers/ETA Sponsors).
+**Business Revival Ecosystem (BRE)** is an institutional programmatic M&A and turnaround infrastructure designed to rescue and transition profitable, cash-generative lower-middle-market Indian MSMEs (annual turnover ₹3.0 Cr to ₹25.0 Cr) from retiring or distressed promoters (ages 50–65) to vetted Operator-Investors (Searchers/ETA Sponsors).
 
-Instead of allowing distressed or succession-deprived manufacturing and industrial units to slide into liquidation or distress asset fire-sales under NCLT/IBC, **PS-OS provides a deterministic, zero-courtroom programmatic buyout protocol** utilizing:
+Instead of allowing distressed or succession-deprived manufacturing and industrial units to slide into liquidation or distress asset fire-sales under NCLT/IBC, **BRE provides a deterministic, zero-courtroom programmatic buyout protocol** utilizing:
 1. **Deterministic SDE & DSCR Underwriting Engine**: Live calculation of Seller's Discretionary Earnings with audited add-back normalization and Senior Debt Service Coverage.
 2. **Statutory Tax & Structural Optimizations**: Slump sale structuring under Section 2(42C) & Section 50B (Rule 11UAE) of the Indian Income Tax Act to slash capital gains tax by 50–70% legally and exempt GST under Notification 12/2017.
 3. **Institutional 60/20/20 Capital Stack**: 60% senior debt / cash at closing, 20% subordinated seller promissory note, and 20% milestone-escrowed equity retention.
@@ -85,7 +85,7 @@ The platform is designed with zero external runtime dependencies (vanilla modern
 
 | Question / Topic | Institutional Defense & Rationale |
 | :--- | :--- |
-| **Why not IBC / NCLT?** | NCLT average resolution takes 600+ days and destroys 75–90% of business enterprise value in legal fees and customer churn. PS-OS executes private slump sales within 45 days. |
+| **Why not IBC / NCLT?** | NCLT average resolution takes 600+ days and destroys 75–90% of business enterprise value in legal fees and customer churn. BRE executes private slump sales within 45 days. |
 | **Why SDE over EBITDA?** | In Indian MSMEs, promoters intentionally suppress EBITDA to minimize income tax by booking personal cars, fuel, family salaries, and discretionary draws as corporate expenses. SDE forensically reconstructs the true cash-generative power of the business. |
 | **Why Section 2(42C) Slump Sale?** | Selling individual machines triggers asset-by-asset GST (18%) and itemized capital gains. An undertaking slump sale qualifies under Sec 50B (Rule 11UAE) for flat long-term capital gains and 0% GST under Notification 12/2017 (transfer as a going concern). |
 | **Why 60/20/20 Capital Stack?** | 60% Senior Debt is underwritten against verified cash flow; 20% Seller Note aligns the seller's incentives during the 1-year transition; 20% Escrow protects the buyer against unrecorded tax penalties or obsolete stock. |

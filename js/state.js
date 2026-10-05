@@ -1,5 +1,5 @@
 /**
- * PROGRAMMATIC SUCCESSION OS (PS-OS) v4.0.0-ENTERPRISE
+ * BUSINESS REVIVAL ECOSYSTEM (BRE) v4.0.0-ENTERPRISE
  * Central Institutional State Manager & Reactive Event Bus
  * Includes: Comprehensive Data Room, Statutory Citations, and Faculty Viva Defense Guide
  */

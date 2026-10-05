@@ -1,5 +1,5 @@
 /**
- * PROGRAMMATIC SUCCESSION OS (PS-OS)
+ * BUSINESS REVIVAL ECOSYSTEM (BRE)
  * Block 4B: Multi-Role Institutional Portals (Hyper-Interactive Edition)
  * Includes: Direct document modals, Intercreditor terms viewer, and ICAI AUP verification
  */
@@ -16,7 +16,7 @@
         <div class="eyebrow">Institutional Access Control · 4 Stakeholder Views</div>
         <h2>Multi-Stakeholder Operational Portals</h2>
         <p>
-          Every participant in a programmatic succession experiences a dedicated, legally bounded view of the transaction 
+          Every participant in a business revival ecosystem experiences a dedicated, legally bounded view of the transaction 
           driven by the same immutable Tally and Account Aggregator data foundation. Click any metric to inspect its statutory rationale.
         </p>
       </div>

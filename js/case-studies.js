@@ -1,5 +1,5 @@
 /**
- * PROGRAMMATIC SUCCESSION OS (PS-OS)
+ * BUSINESS REVIVAL ECOSYSTEM (BRE)
  * Block 3: Benchmark Case Studies & Interactive 5-Step Hero Scenario Player (Hyper-Interactive Edition)
  * Includes: Interactive XML streams, CA Audit Certificates, Term Sheets, and BTA views
  */
@@ -19,7 +19,7 @@
         <h2>Proven M&A Turnaround Paradigms</h2>
         <p>
           Why does institutional business revival create 10x more enterprise value than liquidation? 
-          We ground our programmatic succession architecture in two celebrated turnaround benchmarks, followed by an interactive walkthrough of our pilot deal in Pune.
+          We ground our business revival ecosystem architecture in two celebrated turnaround benchmarks, followed by an interactive walkthrough of our pilot deal in Pune.
         </p>
       </div>
 
@@ -44,7 +44,7 @@
             the company revived and was acquired by Disney in 2009 for $4.24 Billion.
           </p>
           <div style="background: var(--ink-3); padding: 14px 18px; border-radius: 6px; font-size: 0.82rem; border: 1px solid var(--line-light);">
-            <b style="color: var(--teal-2); display: block; margin-bottom: 4px;">PS-OS Platform Parallel:</b>
+            <b style="color: var(--teal-2); display: block; margin-bottom: 4px;">BRE Platform Parallel:</b>
             Distress does NOT equal dead assets. Small manufacturing units often face working capital crises while holding irreproducible factory licenses, seasoned workforces, and OEM vendor codes. Our AI engine unlocks this hidden equity.
           </div>
         </div>
@@ -66,8 +66,8 @@
             Vendor survival rates rose above 90%, transforming an unbankable SME base into a defensible national asset acquired by Tata Digital for $2B+.
           </p>
           <div style="background: var(--ink-3); padding: 14px 18px; border-radius: 6px; font-size: 0.82rem; border: 1px solid var(--line-light);">
-            <b style="color: var(--teal-2); display: block; margin-bottom: 4px;">PS-OS Platform Parallel:</b>
-            Individual MSMEs struggle to raise acquisition capital. By standardizing due diligence via Chartered Accountants and Account Aggregator data, PS-OS makes lower-middle-market acquisitions scalable for senior institutional lenders.
+            <b style="color: var(--teal-2); display: block; margin-bottom: 4px;">BRE Platform Parallel:</b>
+            Individual MSMEs struggle to raise acquisition capital. By standardizing due diligence via Chartered Accountants and Account Aggregator data, BRE makes lower-middle-market acquisitions scalable for senior institutional lenders.
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@
           <div>
             <div class="eyebrow">Interactive Live Simulation · Pilot Deal</div>
             <h3 style="font-size: 1.75rem;">
-              The 5-Step Programmatic Succession of Alden Precision Engineering
+              The 5-Step Business Revival of Alden Precision Engineering
             </h3>
             <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 4px;">
               Target Asset: <b>#MH-AUTO-1092</b> | Chakan Industrial Cluster, Pune, MH | 24-Year-Old Precision Machining Unit

@@ -1,5 +1,5 @@
 /**
- * PROGRAMMATIC SUCCESSION OS (PS-OS)
+ * BUSINESS REVIVAL ECOSYSTEM (BRE)
  * Block 4A: Gated Institutional Marketplace & 5-Tab Virtual Data Room (Hyper-Interactive Edition)
  * Includes: Multi-tab CIM Data Room, Machinery schedules, and Interactive LOI Generator
  */

@@ -1,5 +1,5 @@
 /**
- * PROGRAMMATIC SUCCESSION OS (PS-OS)
+ * BUSINESS REVIVAL ECOSYSTEM (BRE)
  * Block 6A: Virtual Deal Room, Capital Stack Customizer & 4-Tranche Escrow Console (Hyper-Interactive Edition)
  * Includes: Live Capital Stack Sliders, Advisory Timesheet Inspector, and Digital Closing Certificate
  */
@@ -396,7 +396,7 @@
       <div style="border: 2px solid var(--brass); padding: 32px; border-radius: 6px; background: #060D11; font-family:'IBM Plex Sans', sans-serif;">
         <div style="text-align:center; border-bottom:1px solid var(--line-light); padding-bottom:18px; margin-bottom:20px;">
           <span class="mono" style="font-size:0.75rem; color:var(--teal-2); letter-spacing:0.12em; text-transform:uppercase;">
-            PROGRAMMATIC SUCCESSION OS · CERTIFICATE OF COMPLETION
+            BUSINESS REVIVAL ECOSYSTEM · CERTIFICATE OF COMPLETION
           </span>
           <h2 style="font-size:1.8rem; margin:6px 0; color:var(--paper);">
             Section 2(42C) Slump Sale Execution

@@ -1,5 +1,5 @@
 /**
- * PROGRAMMATIC SUCCESSION OS (PS-OS)
+ * BUSINESS REVIVAL ECOSYSTEM (BRE)
  * Block 2: AI Diagnostic Scanner & SDE Underwriting Engine (Hyper-Interactive Edition)
  * Includes: Live sliders, Why-This-Exists Explainer Badges, and Forensic Add-Back Ledger Inspector
  */
